@@ -1,0 +1,47 @@
+body{
+    background-color: grey;
+    margin: 0px;
+    padding: 40px;
+}
+div{
+    border-radius: 37px;
+    background-color: white;
+    height: 71vh;
+    width: 25vw;
+   
+    margin: 5px;
+    padding:5px;
+}
+img{
+    background-position: cover;
+    border-radius: 37px;
+    width: 25vw;
+    margin: 0px;
+    padding: 0px;
+}
+.nature,
+.space {
+  display: inline-block; /* or 'block' */
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 30px;
+}
+.title {
+    font-size: 2em;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 0px;
+}
+.read {
+  display: block; /* or flex */
+  width: fit-content;
+  margin: 20px auto; /* this centers it horizontally */
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color:mediumblue;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
